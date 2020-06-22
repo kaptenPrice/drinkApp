@@ -8,7 +8,7 @@ const TableComponent = ({ imageURL, name, recepie, onClickAction }) => {
             <div className="Result" >
                 <p>Name: {name} </p>
                 <p><img src={imageURL} alt={name}></img></p>
-                <p>{recepie}</p>
+                <p>Recepie: {recepie}</p>
             </div >
 
         </>
