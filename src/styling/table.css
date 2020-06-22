@@ -1,4 +1,6 @@
 
 .Result{
-    display: inline-block;
+    display: inline-grid;
+    color:tomato;
+    
 }
