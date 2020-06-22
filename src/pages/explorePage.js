@@ -30,7 +30,7 @@ const Explore = () => {
     }
 
     return (
-        <div>
+        <>
             <input
                 type="text"
                 placeholder="Search"
@@ -47,7 +47,7 @@ const Explore = () => {
 
 
 
-        </div>
+        </>
     )
 
 }

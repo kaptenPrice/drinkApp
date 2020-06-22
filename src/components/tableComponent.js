@@ -5,11 +5,11 @@ import '../styling/table.css'
 const TableComponent = ({ imageURL, name, recepie, onClickAction }) => {
     return (
         <>
-            <button >
+            <div className="Result" >
                 <p>Name: {name} </p>
                 <p><img src={imageURL} alt={name}></img></p>
                 <p>{recepie}</p>
-            </button>
+            </div >
 
         </>
     )

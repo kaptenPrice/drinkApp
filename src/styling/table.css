@@ -1,6 +1,4 @@
-button {
-    border          : none;
-    background-color: white;
-    opacity         : 1;
-    font-size       : 15px
+
+.Result{
+    display: inline-block;
 }

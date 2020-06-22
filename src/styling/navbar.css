@@ -1,0 +1,12 @@
+header {
+    color: turquoise;
+}
+
+a {
+
+    color          : royalblue;
+    text-decoration: none;
+    display        : inline-block;
+    padding        : 10px;
+    font-size      : 20px;
+}

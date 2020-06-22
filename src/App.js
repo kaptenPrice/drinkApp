@@ -1,7 +1,7 @@
 import React from 'react';
-import NavBar from './Navbar';
-import DashBoardPage from './components/dashboardPage';
-import ExplorePage from './components/explorePage';
+import NavBar from './components/Navbar';
+import DashBoardPage from './pages/dashboardPage';
+import ExplorePage from './pages/explorePage';
 import './App.css';
 import { BrowserRouter, Switch, Route } from 'react-router-dom';
 
