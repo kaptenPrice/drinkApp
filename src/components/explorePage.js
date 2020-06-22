@@ -14,7 +14,6 @@ const Explore = () => {
             elem.name.toLowerCase().includes(searchTerm.toLowerCase())
         );
         setsearchResult(result);
-        //  console.log(searchResult)
     }, [searchTerm]);
 
     const ShowResult = () => {

@@ -7,6 +7,7 @@ import { BrowserRouter, Switch, Route } from 'react-router-dom';
 
 function App() {
     return (
+        <div className="content">
         <BrowserRouter>
             <NavBar />
             <div>
@@ -16,7 +17,7 @@ function App() {
                 </Switch>
             </div>
         </BrowserRouter>
-
+        </div>
 
 
     );
