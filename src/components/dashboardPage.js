@@ -1,6 +1,13 @@
-import React from 'react';
-const DashBoardPage = (props) => {
-    console.log(props)
-    return <div>This is my DashBoard Page</div>
+ import React, {  } from 'react';
+import Pic from '../drinkImage.jpg'
+
+
+const DashBoardPage = () => {
+    
+    return( 
+        <div>
+        <img src={Pic} alt={"drinks"}></img>
+        </div>
+        )
 };
 export default DashBoardPage;

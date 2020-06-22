@@ -1,16 +1,15 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
+import { NavLink } from 'react-router-dom';
 
 const Navbar = () => (
-    <nav>
-        <ul>
-            <li>
-                <Link to="/">Home</Link>
-            </li>
-            <li>
-                <Link to="/about">Explore</Link>
-            </li>
-       
-        </ul>
-    </nav>
+    <header>
+        <h1>Search for summer drinks</h1>
+        <NavLink to="/" activeClassName="is-active" exact>
+            Home
+        </NavLink>
+        <NavLink to="/explorePage" activeClassName="is-active">
+            Explore
+        </NavLink>
+
+    </header>
 ); export default Navbar;
